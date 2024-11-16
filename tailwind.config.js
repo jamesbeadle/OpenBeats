@@ -28,6 +28,7 @@ export default {
     },
     extend: {
       colors: {
+        BrandSalmon: "#FF8D7D",
         BrandGray: "#272727",
       },
       fontFamily: {
