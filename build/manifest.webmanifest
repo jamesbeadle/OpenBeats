@@ -1,0 +1,23 @@
+{
+  "name": "OpenBeats",
+  "short_name": "OpenBeats",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1a1d",
+  "background_color": "#1a1a1d",
+  "description": "Decentralised music production.",
+  "orientation": "landscape-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://qm6x5-qqaaa-aaaal-qcnea-cai.raw.icp0.io/favicons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://qm6x5-qqaaa-aaaal-qcnea-cai.raw.icp0.io/favicons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
