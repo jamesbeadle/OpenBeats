@@ -43,9 +43,7 @@
       </div>
 
       <div class="flex flex-col text-sm  exLight uppercase lg:mb-0 lg:flex-row">
-        <a href="/" class="mb-4 lg:mb-0 lg:mx-4 hover:text-blue-400">Products</a>
-        <a href="/about" class="mb-4 lg:mb-0 lg:mx-4 hover:text-blue-400">About Us</a>
-        <a href="/team" class="mb-4 lg:mb-0 lg:mx-4 hover:text-blue-400">The Team</a>
+        <a href="/" class="mb-4 lg:mb-0 lg:mx-4 hover:text-blue-400">Coming Soon</a>
       </div>
     </div>
 
@@ -60,8 +58,7 @@
         {/if}
       </div>
       <div class="flex flex-col text-sm  exLight uppercase lg:flex-row ">
-        <a href="https://github.com" target="_blank" class="mb-4 lg:mb-0 lg:mx-2 hover:text-blue-400">GitHub</a>
-        <a href="https://twitter.com" target="_blank" class="mb-4 lg:mb-0 lg:mx-2 hover:text-blue-400">Twitter</a>
+        <a href="https://github.com/jamesbeadle/openbeats" target="_blank" class="mb-4 lg:mb-0 lg:mx-2 hover:text-blue-400">GitHub</a>
       </div>
     </div>
     

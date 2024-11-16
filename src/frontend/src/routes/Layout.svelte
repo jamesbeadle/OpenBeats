@@ -2,14 +2,13 @@
   import { onMount } from "svelte";
   import { fade } from "svelte/transition";
   import { browser } from "$app/environment";
-  import { page } from "$app/stores";
+  import Footer from "$lib/shared/Footer.svelte";
+  import Header from "$lib/shared/Header.svelte";
 
   import { initAuthWorker } from "$lib/services/worker-auth-service";
   import { authStore, type AuthStoreData } from "$lib/stores/auth-store";
   import { storeManager } from "$lib/managers/store-manager.js";
 
-  import DesktopLayout from "./DesktopLayout.svelte";
-  import MobileLayout from "./MobileLayout.svelte";
   import LocalSpinner from "$lib/components/shared/local-spinner.svelte";
   import "../app.css";
   
@@ -53,16 +52,8 @@
   </div>
 {:then _}
   <div>
-    <div class="block lg:hidden">
-      <MobileLayout>
-        <slot />
-      </MobileLayout>
-    </div>
-
-    <div class="hidden lg:block">
-      <DesktopLayout>
-        <slot />
-      </DesktopLayout>
-    </div>
+    <Header />
+    <slot />
+    <Footer />
   </div>
 {/await}

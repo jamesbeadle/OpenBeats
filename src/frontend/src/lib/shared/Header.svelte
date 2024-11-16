@@ -24,7 +24,7 @@
   }
 </script>
 
-<header class="py-4 bg-BrandGray lg:py-2">
+<header class="py-4 bg-BrandGray lg:py-2 px-4">
   <div class="flex items-center justify-between w-full lg:max-w-1/2">
     <a href="/">
       <div class="flex items-center space-x-2">
@@ -34,11 +34,9 @@
     </a>
 
     <nav class="hidden space-x-4 sm:flex lg:mr-2">
-      <a href="about" class="hover:underline">ABOUT</a>
-      <a href="team" class="hover:underline">TEAM</a>
-      <a href="contact" class="hover:underline">CONTACT</a>
+      <a href="/" class="hover:underline">Coming Soon</a>
       {#if isLoggedIn}
-        <a href="account" class="hover:underline">ACCOUNT</a>
+        <a href="account" class="hover:underline">Account</a>
       {/if}
     </nav>
 
@@ -68,28 +66,11 @@
     <div class="mobile-menu-links">
       <div class="horizontal-divider"></div>
       <div class="mobile-menu-item">
-        <a href="/about" class="mobile-nav-link" on:click={toggleMenu}>ABOUT</a>
-        <a href="/about" on:click={toggleMenu}>
+        <a href="/" class="mobile-nav-link" on:click={toggleMenu}>Coming Soon</a>
+        <a href="/" on:click={toggleMenu}>
           <ArrowIcon className="w-7 h-7" />
         </a>
       </div>
-      <div class="horizontal-divider"></div>
-      
-      <div class="mobile-menu-item">
-        <a href="/team" class="mobile-nav-link" on:click={toggleMenu}>TEAM</a>
-        <a href="/team" on:click={toggleMenu}>
-          <ArrowIcon className="w-7 h-7" />
-        </a>
-      </div>
-      <div class="horizontal-divider"></div>
-      
-      <div class="mobile-menu-item">
-        <a href="/contact" class="mobile-nav-link" on:click={toggleMenu}>CONTACT</a>
-        <a href="/contact" on:click={toggleMenu}>
-          <ArrowIcon className="w-7 h-7" />
-        </a>
-      </div>
-
       <div class="horizontal-divider"></div>
     </div>
   </div>

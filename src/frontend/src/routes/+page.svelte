@@ -31,6 +31,11 @@
   {#if isLoading}
     <LocalSpinner />
   {:else}
-    <p>OpenBeats</p>
+    <img src="/screenshot.jpg" alt="screenshot" class="w-full h-auto hidden lg:flex" />
+    <div class="flex flex-col lg:hidden">
+      <img src="/mobile1.jpg" alt="screenshot" class="w-full h-auto" />
+      <img src="/mobile2.jpg" alt="screenshot" class="w-full h-auto" />
+    </div>
+    
   {/if}
 </Layout>
